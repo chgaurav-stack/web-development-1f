@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Listener</title>
+</head>
+<body>
+
+    <button id="btn">Click Me</button>
+
+    <script>
+        function showMessage() {
+            alert("Button Clicked!");
+        }
+
+        let button = document.getElementById("btn");
+
+        // Add event listener
+        button.addEventListener("click", showMessage);
+
+        // Remove event listener after 1 click
+        button.addEventListener("dblclick", function () {
+            button.removeEventListener("click", showMessage);
+            alert("Click event removed");
+        });
+    </script>
+
+</body>
+</html>

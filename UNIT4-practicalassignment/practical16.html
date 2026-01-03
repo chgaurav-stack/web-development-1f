@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Show Hide</title>
+
+    <style>
+        .hidden {
+            display: none;
+        }
+        .box {
+            padding: 20px;
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="myBox" class="box">
+        This box can be hidden or shown
+    </div>
+
+    <button onclick="toggleBox()">Toggle</button>
+
+    <script>
+        function toggleBox() {
+            document.getElementById("myBox")
+                    .classList.toggle("hidden");
+        }
+    </script>
+
+</body>
+</html>

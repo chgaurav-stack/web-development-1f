@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DOM Manipulation</title>
+</head>
+<body>
+
+    <h2 id="title">Original Text</h2>
+    <p class="info">This is a paragraph</p>
+
+    <button onclick="changeText()">Change Text</button>
+
+    <script>
+        function changeText() {
+            // getElementById
+            document.getElementById("title").innerHTML = "Text Changed!";
+
+            // querySelector
+            document.querySelector(".info").innerHTML =
+                "Paragraph updated using querySelector";
+        }
+    </script>
+
+</body>
+</html>

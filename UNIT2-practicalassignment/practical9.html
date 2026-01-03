@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Responsive Design</title>
+    <style>
+
+        /* Mobile First */
+        body {
+            font-size: 16px;
+            background-color: lightblue;
+        }
+
+        .container {
+            width: 90%;
+            margin: auto;
+        }
+
+        /* Tablet */
+        @media (min-width: 600px) {
+            body {
+                background-color: lightgreen;
+                font-size: 18px;
+            }
+        }
+
+        /* Desktop */
+        @media (min-width: 900px) {
+            body {
+                background-color: lightcoral;
+                font-size: 20px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Responsive Web Page</h1>
+        <p>
+            This page changes layout and font size
+            according to screen width.
+        </p>
+    </div>
+
+</body>
+</html>
