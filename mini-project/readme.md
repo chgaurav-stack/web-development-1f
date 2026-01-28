@@ -69,5 +69,6 @@ _No installation or server setup required._
 
 ## 👨‍🎓 Author
 
-**Gaurav Rao**  
+** Ch Gaurav **  
 End Semester Project – Web Development  
+
