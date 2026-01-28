@@ -15,7 +15,7 @@ This project was created as an **End Semester Project** to understand core web d
 - 💾 Persistent storage using **Local Storage**
 - 🔄 Tasks remain saved even after page refresh
 - 🎨 Clean and minimal UI
-- 📦 Single-file implementation (`index.html`)
+- 📦 Single-file implementation (`todolist.html`)
 
 ---
 
@@ -23,7 +23,7 @@ This project was created as an **End Semester Project** to understand core web d
 
 - **HTML5** – Structure of the web page  
 - **CSS3** – Styling and layout  
-- **JavaScript (Vanilla JS)** – Logic and interactivity  
+- **JavaScript ** – Logic and interactivity  
 - **Local Storage API** – Data persistence in the browser  
 
 ---
@@ -61,5 +61,6 @@ This project was created as an **End Semester Project** to understand core web d
 
 ** Ch Gaurav **  
 End Semester Project – Web Development  
+
 
 
