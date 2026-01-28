@@ -48,16 +48,6 @@ This project was created as an **End Semester Project** to understand core web d
 
 ---
 
-## ▶️ How to Run the Project
-
-1. Download or clone the repository  
-2. Open `index.html` in any modern web browser  
-3. Start adding your tasks 🚀  
-
-_No installation or server setup required._
-
----
-
 ## 📌 Future Improvements
 
 - Edit task functionality
@@ -71,4 +61,5 @@ _No installation or server setup required._
 
 ** Ch Gaurav **  
 End Semester Project – Web Development  
+
 
